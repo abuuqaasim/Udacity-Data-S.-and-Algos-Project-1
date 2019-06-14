@@ -15,7 +15,7 @@ along with the usual links right/left.
 """
 class Huff_Node:
     def __init__(self,value, wt):
-        """Create node for given symbol and probability."""
+        """Create node for given symbol and weight."""
         self.left = None
         self.right = None
         self.value = value

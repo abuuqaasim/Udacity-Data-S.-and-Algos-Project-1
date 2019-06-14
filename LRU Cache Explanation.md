@@ -1,0 +1,3 @@
+## Least Recently Used Cache
+
+According to the assignment, “Least Recently Used (LRU) cache. An LRU cache is a type of cache in which we remove the least recently used entry when the cache memory reaches its limit.” Here, Cache entries in a dictionary and a `deque` module from the Python collections are used for storage and to track the Cache history. Performance is `O(1)` and space complexity is `O(n)` the size of the Cache. Using the deque module instead of a ad-hoc constructed doubly linked list simplifies the code making it more transparent and perhaps more reliable.  
